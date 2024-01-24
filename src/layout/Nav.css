@@ -1,7 +1,30 @@
-.navbar{
+.menu{
+    margin-right: 3vw;
+    list-style: none;
+    list-style-type: none;
+    float: left; /* 메뉴 수평정렬 */
+}
+
+.menus{
     float: right;
-    line-height: 150px;
-    width: 150px;
-    margin-top: 10%;
-    background-color: #141414;
+    width: 100%;
+    justify-content: flex-end; /* 마지막에서부터 나오도록 설정 */
+    display: flex; /* 마지막에서부터 나오도록 설정 */
+}
+
+@font-face {
+    font-family: 'omyu_pretty';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-01@1.0/omyu_pretty.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.logo {
+    margin-left: 1.5vw;
+    padding-top: 1.5vh;
+}
+
+.Head {
+    font-family: 'omyu_pretty';
+    font-size: 5em;
 }
